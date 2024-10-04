@@ -1,0 +1,144 @@
+/* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Tahoma', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  /* Header */
+  .header-title {
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    text-shadow: 2px 0px 2px #fff;
+    font-weight: bold;
+    text-align: center;
+ 
+    font-size: 24px;
+    position: relative;
+  }
+  
+  .title {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  
+  /* Content */
+  .content {
+    background-color: #808080;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .todo {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-todo label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .btn-add {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn-todo {
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-todo:hover {
+    background-color: #555;
+  }
+  
+  /* Todo List */
+  .list-todo {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  li {
+    list-style-type: none;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .p-todo {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  /* Edit and Delete Buttons */
+  .btn-edit-delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .btn-edit-delete button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    transition: transform 0.2s ease;
+  }
+  
+  .btn-edit-delete button:hover {
+    transform: scale(1.1);
+  }
+  
+  .btn-edit-delete .edit img, 
+  .btn-edit-delete .delete img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .edit img {
+    margin-right: 10px;
+  }
+  
+  
